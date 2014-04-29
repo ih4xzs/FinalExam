@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+extern NSString *pass;
+@interface SecondViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
-@interface SecondViewController : UIViewController
 
 @end
